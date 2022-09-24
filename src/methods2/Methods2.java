@@ -11,7 +11,7 @@ public class Methods2 {
 	int sayı = topla(5,7);
 	System.out.println(sayı);
 	 
-	int toplam = topla2(...sayilar: 2,3,4,5,6,10);
+	int toplam = topla2( 2,3,4,5,6,10,45,856,458963214,4523);
 	System.out.println(toplam);
 	
 
