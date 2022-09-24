@@ -10,6 +10,9 @@ public class Methods2 {
 
 	int sayı = topla(5,7);
 	System.out.println(sayı);
+	 
+	int toplam = topla2(...sayilar: 2,3,4,5,6,10);
+	System.out.println(toplam);
 	
 
 	}
@@ -28,7 +31,16 @@ public static void guncelle () {
 
 public static int topla(int sayı,int sayı2) {
 	return sayı + sayı2;
+}
+ 
+public static int topla2 (int... sayilar) {
+	int toplam = 0;
+	for (int sayı : sayilar) {
+		toplam+=sayı;
+	}
+	
 
+	return toplam ;
 
 
 
